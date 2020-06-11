@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AIRBNB</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" />this is used for good quality.like if we open this website on phone it will show the same quality as compared to laptop -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <!-- we have created two stylesheets for different things styling -->
+    <body>
+      <ul>
+            <li class="name">AIRBNB</li>
+            <li><a href="" target="">Log In</a></li>
+            <li><a href="" target="">Sign Up</a></li>
+            <li><a href="" target="">Host an experience</a></li>
+      </ul>
+      <!-- <div class="form-group">its the bootstrap link that creates a form -->
+      <div class="search-card-container">
+        <div class="search-card">
+          <div class="search-card-header">
+            <p class="search-card-title">Book unique places to stay and things to do.</p>
+          </div>
+          <!-- the above are the random classes like the search card container,search-card,etc.these dont perform specific functions -->
+          <div class="search-card-body">
+            <div class="form-group">
+              <p class="search-label">Where</p>
+              <input type="text">
+            </div>
+           <div class="inline-form-group">
+             <div class="form-group">
+               <p class="search-label">Check-in</p>
+               <input type="date">
+               <!-- input type text will create a text box and input type date will create a date like structure to sumbit the date -->
+             </div>
+           </div>
+           <div class="form-group">
+             <p class="search-label">Check-out</p>
+             <input type="date">
+           </div>
+          </div>
+          <div class="form-group">
+            <p class="search-label">Where</p>
+            <select name="guest-list">
+              <option value="">1 Guests</option>
+              <option value="">2 Guests</option>
+              <option value="">3 Guests</option>
+              <option value="">4 Guests</option>
+              <option value="">5 Guests</option>
+            </select>
+            <!-- the above is the code for the select and options -->
+          </div>
+        </div>
+        <div class="search-card-footer">
+            <div class="form-group d-flex-end">
+              <button class="search-btn">Search</button>
+              <!-- is d-flex-end a noraml class? -->
+            </div>
+        </div>
+      </div>
+      <br><br><br><br>
+      <h1 style="padding-left: 30px;">Places to visit</h1>
+      <div class="place-card-container">
+        <div class="place-card">
+          <div class="header-img">
+            <img src="https://unsplash.com/photos/561igiTyvSk/download?force=true" alt="image">
+          </div>
+          <div class="place-meta">
+            <p class="meta-info">
+              ENTIRE CABIN.JOSHUA TREE
+            </p>
+            <p class="place-title">
+              Joshua Tree Homesteader Cabin
+            </p>
+            <p class="meta-price">
+              3,421 Rs /night
+            </p>
+            <p class="meta-rating">
+              <i class="tiny material-icons">star</i>
+              <i class="tiny material-icons">star</i>
+              <i class="tiny material-icons">star</i>
+              <i class="tiny material-icons">star</i>
+              <i class="tiny material-icons">star</i>
+              <span class="meta-rating-body">555.Superhost</span>
+            </p>
+            </div>
+          </div>
+
+          <div class="place-card">
+            <div class="header-img">
+              <img src="https://unsplash.com/photos/bjej8BY1JYQ/download?force=true" alt="image">
+            </div>
+            <div class="place-meta">
+              <p class="meta-info">
+              ENTIRE APARTMENT-CITTA DELLA PIEVE
+              </p>
+              <p class="place-title">
+               Airstream 'Glamping' in Andalucial
+              </p>
+              <p class="meta-price">
+                2,254 Rs /night
+              </p>
+              <p class="meta-rating">
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <span class="meta-rating-body">555-Superhost</span>
+              </p>
+              </div>
+            </div>
+
+            <div class="place-card">
+              <div class="header-img">
+                <img src="https://unsplash.com/photos/DAHXjK2NeDM/download?force=true" alt="image">
+              </div>
+              <div class="place-meta">
+                <p class="meta-info">
+                  ENTIRE CABIN-JOSHUA TREE
+                </p>
+                <p class="place-title">
+                 Leccio Apartment-Cimbolello
+                </p>
+                <p class="meta-price">
+                 5,214 Rs /night
+                </p>
+                <p class="meta-rating">
+                  <i class="tiny material-icons">star</i>
+                  <i class="tiny material-icons">star</i>
+                  <i class="tiny material-icons">star</i>
+                  <i class="tiny material-icons">star</i>
+                  <i class="tiny material-icons">star</i>
+                  <span class="meta-rating-body">555-Superhost</span>
+                </p>
+                </div>
+              </div>
+
+
+              <div class="place-card">
+                <div class="header-img">
+                  <img src="https://lh3.googleusercontent.com/proxy/ublesYvbz7GzsGulyR0p7cfCndTzaGCIWiLLMuwpJ4sNXqI_QwWONFi3QoxriO0wcwJroKLEN_-U0IUcsYvvrmd91XTe1ATd7wEthLSIhdg2RhJo_RITyEQs7VvLa-yAKjNGG4w2" alt="image">
+                </div>
+                <div class="place-meta">
+                  <p class="meta-info">
+                    Grand Hyaat
+                  </p>
+                  <p class="place-title">
+                    Goa
+                  </p>
+                  <p class="meta-price">
+                    4000 Rs/night
+                  </p>
+                  <p class="meta-rating">
+                    <i class="tiny material-icons">star</i>
+                    <i class="tiny material-icons">star</i>
+                    <i class="tiny material-icons">star</i>
+                    <i class="tiny material-icons">star</i>
+                    <i class="tiny material-icons">star</i>
+                    <span class="meta-rating-body">555-Superhost</span>
+                  </p>
+                  </div>
+                </div>
+
+                <div class="place-card">
+                  <div class="header-img">
+                    <img src="https://cache.marriott.com/marriottassets/marriott/BOMSA/bomsa-exterior-0023-hor-feat.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1180px:*" alt="image">
+                  </div>
+                  <div class="place-meta">
+                    <p class="meta-info">
+                      Marriott
+                    </p>
+                    <p class="place-title">
+                      Mumbai
+                    </p>
+                    <p class="meta-price">
+                      5500 Rs /night
+                    </p>
+                    <p class="meta-rating">
+                      <i class="tiny material-icons">star</i>
+                      <i class="tiny material-icons">star</i>
+                      <i class="tiny material-icons">star</i>
+                      <i class="tiny material-icons">star</i>
+                      <i class="tiny material-icons">star</i>
+                      <span class="meta-rating-body">555-Superhost</span>
+                    </p>
+                    </div>
+                  </div>
+
+                  <div class="place-card">
+                    <div class="header-img">
+                      <img src="https://pix4.agoda.net/hotelimages/4990501/-1/dd4bb0462bc74911a511efa44b3d3e21.jpg" alt="image">
+                    </div>
+                    <div class="place-meta">
+                      <p class="meta-info">
+                        Marriott
+                      </p>
+                      <p class="place-title">
+                        Jaipur
+                      </p>
+                      <p class="meta-price">
+                        4719 Rs /night
+                      </p>
+                      <p class="meta-rating">
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <span class="meta-rating-body">555-Superhost</span>
+                      </p>
+                      </div>
+                    </div>
+        </div>
+      </div>
+    </body>
