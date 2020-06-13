@@ -42,7 +42,7 @@ the box shadow will give shadow.you can see the properties of shadow on w3school
 
     flex-basis:50%;
 }
-/* what is flex-basis can you explain? */
+/* flex-basis just increase the size of divs,it can be any div. */
 .form-group >input,
 .form-group >select
 /* this is the way of giving 
@@ -63,7 +63,7 @@ the box shadow will give shadow.you can see the properties of shadow on w3school
     justify-content: space-between;
 }
 .form-group > .search-label
-/* can you explain the .form-group > .search-label? */{
+{
     margin-bottom: 5px;
 
     font-family: "Lexend Deca",sans-serif;
@@ -71,7 +71,7 @@ the box shadow will give shadow.you can see the properties of shadow on w3school
     font-weight: 700;
 
     text-transform: uppercase;
-
+    /* text-transform:uppercase is used to make letters capital */
     color: #555 ;
 }
 .search-btn{

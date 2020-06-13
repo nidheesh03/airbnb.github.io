@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     padding-left: 50px;
 }
-
+/* flex-wrap:wrap; is making the images come three in one line and another three in another line */
 .place-card{
     width: 350px;
     margin-right: 20px;
@@ -30,7 +30,7 @@
     margin: 10px 0px;
 }
 .meta-rating{
-    color:#666;
+    color:orange;
     font-size: 12px;
     margin:10px 0;
     display:flex;
@@ -43,10 +43,6 @@
 .meta-rating-body{
     margin-left: 10px;
 }
-textarea:disabled{
-    background-color: #222;
-     color: orange;
-     padding: 20px;
-     border-radius: 5px;
-     height:auto;
-}
+/* align-items:center; is used to align the items in the center of that specific division (all the elememts)*/
+/* height:auto is used to set the height automatically (default height,the orignial size of the element)*/
+/* textarea is the tag where we write text and text-area:disabled is the property which probhits anyone writing in the website. */
